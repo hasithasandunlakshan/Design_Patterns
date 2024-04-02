@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a399168-df6d-4b27-ba96-3953d23a778c" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/FractoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/ShapeFactory.java" afterDir="false" />
+    <list default="true" id="9a399168-df6d-4b27-ba96-3953d23a778c" name="Changes" comment="opthers">
+      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/AbstarctFactoryMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstarctFactoryMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,7 +61,7 @@
       <updated>1711942517864</updated>
       <workItem from="1711942518925" duration="154000" />
       <workItem from="1711942750589" duration="299000" />
-      <workItem from="1711952301262" duration="3409000" />
+      <workItem from="1711952301262" duration="3660000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -88,7 +79,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711943040159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1712071170015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071170015</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fractory class done">
+      <option name="closed" value="true" />
+      <created>1712071205355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071205355</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fractory class done">
+      <option name="closed" value="true" />
+      <created>1712071237957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071237957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="opthers">
+      <option name="closed" value="true" />
+      <created>1712071254868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712071254868</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +119,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Fractory class done" />
+    <MESSAGE value="opthers" />
+    <option name="LAST_COMMIT_MESSAGE" value="opthers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
