@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a399168-df6d-4b27-ba96-3953d23a778c" name="Changes" comment="opthers">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFractory/AbstarctFactoryMain.java" afterDir="false" />
+    <list default="true" id="9a399168-df6d-4b27-ba96-3953d23a778c" name="Changes" comment="Abstract main Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <updated>1711942517864</updated>
       <workItem from="1711942518925" duration="154000" />
       <workItem from="1711942750589" duration="299000" />
-      <workItem from="1711952301262" duration="3660000" />
+      <workItem from="1711952301262" duration="4561000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -111,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712071254868</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Abstract main Done">
+      <option name="closed" value="true" />
+      <created>1712072145476</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712072145476</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +128,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Fractory class done" />
     <MESSAGE value="opthers" />
-    <option name="LAST_COMMIT_MESSAGE" value="opthers" />
+    <MESSAGE value="Abstract main Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract main Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -131,6 +139,10 @@
           <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
