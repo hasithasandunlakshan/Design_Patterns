@@ -1,4 +1,4 @@
-package AbstractFractory.AnotherExample;
+package Creational.AbstractFractory.AnotherExample;
 
 interface Button {
     String render();
@@ -38,6 +38,7 @@ class MacCheckbox implements Checkbox {
 
 interface UIFactory {
     Button createButton();
+
     Checkbox createCheckbox();
 }
 

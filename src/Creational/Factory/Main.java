@@ -1,4 +1,4 @@
-package Factory;
+package Creational.Factory;
 
 interface Character {
     String attack();

@@ -1,4 +1,4 @@
-package Builder;
+package Creational.Builder;
 
 // Product class
 class Pizza {
@@ -26,8 +26,11 @@ class Pizza {
 // Builder interface
 interface PizzaBuilder {
     void buildDough();
+
     void buildSauce();
+
     void buildTopping();
+
     Pizza getPizza();
 }
 
