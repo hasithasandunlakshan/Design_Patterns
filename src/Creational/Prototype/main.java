@@ -1,53 +1,53 @@
 package Creational.Prototype;
 
-class animal {
-    String name;
 
-    public animal(String name) {
-        this.name = name;
-    }
 
-    public void makeSound() {
-        System.out.println("Animal Sound");
-    }
+// Prototype interface
+interface Prototype {
+    Prototype clone();
 }
 
-class Dog extends animal {
-    public Dog(String name) {
-        super(name);
+// Concrete prototype
+class ConcretePrototype implements Prototype {
+    private int value;
 
+    public ConcretePrototype(int value) {
+        this.value = value;
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("baw baw");
+    public ConcretePrototype clone() {
+        return new ConcretePrototype(this.value);
     }
 
-}
-
-class Cat extends animal {
-    public Cat(String name) {
-        super(name);
-
+    public int getValue() {
+        return value;
     }
 
-    @Override
-    public void makeSound() {
-        System.out.println("Meaw");
+    public void setValue(int value) {
+        this.value = value;
     }
-
 }
 
 public class main {
     public static void main(String[] args) {
+        // Create prototype
+        ConcretePrototype prototype = new ConcretePrototype(10);
 
-        animal animal = new animal("elephant");
-        System.out.println(animal.name);
-        animal an2 = new Dog("dog1");
-        System.out.println(an2.name);
-        Dog dog2 = new Dog("dog2");
-        System.out.println(dog2.name);
+        // Clone prototype
+        ConcretePrototype clonedPrototype = prototype.clone();
+
+        // Test cloning
+        System.out.println("Original Prototype Value: " + prototype.getValue());
+        System.out.println("Cloned Prototype Value: " + clonedPrototype.getValue());
+
+        System.out.println(prototype == clonedPrototype);
+
+        // Modify cloned prototype
+        clonedPrototype.setValue(20);
+
+        // Test modification
+        System.out.println("Modified Cloned Prototype Value: " + clonedPrototype.getValue());
 
     }
-
 }
